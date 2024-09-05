@@ -1,4 +1,2 @@
-import math
-
-def multiply(x,y):
-    return x*y
+def multiply(A, B):
+    return A * B
