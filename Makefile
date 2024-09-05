@@ -9,5 +9,3 @@ test:
 
 all: install format lint test
 
-hello:
-	echo "hello"
