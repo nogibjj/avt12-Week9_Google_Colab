@@ -1,9 +1,9 @@
 install:
 	pip install --upgrade pip && pip install -r requirements.txt 
 format:
-	black*.py
+	black *.py
 lint: 
-	pylint --disable=R, C --ignore-patters=test_.*?py *.py
+	pylint --disable==R,C --ignore-patterns=test_.*?py *.py
 test:
 	python -m pytest -cov=main test_main.py
 
