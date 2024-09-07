@@ -7,3 +7,6 @@
 
 
 #[![CI](https://github.com/nogibjj/avt12-template/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/avt12-template/actions/workflows/hello.yml)
+
+the repository serves as a python template. 
+
