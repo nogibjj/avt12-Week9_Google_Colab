@@ -5,7 +5,7 @@ format:
 lint: 
 	ruff check *.py mylib/*.py test_*.py *.ipynb
 test:
-	python -m pytest -cov=main test_main.py
+	python -m pytest -vv --nbval -cov=main test_main.py
 
 generate_and_push:
 
