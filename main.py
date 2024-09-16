@@ -5,9 +5,12 @@ def g_describe(data):
     g=load_dataset(data)
     return nba_summary(g)
 
+histogram_3ptfg(data1)
+bar_chart_points(data1)
+
 def save_to_md():
     test=g_describe(data1)
-    with open("nbastats.md","a") as file:
+    with open("nbastats.md","a", encoding='utf-8') as file:
         file.write("Describe:\n")
         file.write(test)
         file.write("n\n")
