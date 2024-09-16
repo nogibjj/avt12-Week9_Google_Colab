@@ -25,7 +25,7 @@ def bar_chart_points(data):
     plt.figure(figsize=(10,6))
     plt.bar(df["Pos"],df["AST"],color ='maroon', 
         width = 0.4)
-    plt.savefig("points_by_position.png")
+    plt.savefig("points_by_position1.png")
     plt.show()
 
 def g_describe(data):
@@ -42,7 +42,7 @@ def save_to_md(data):
         file.write("Describe:\n")
         file.write(mkdown)
         file.write("n\n")
-        file.write("![NBA_1](points_by_position.png)\n")
+        file.write("![NBA_1](points_by_position1.png)\n")
         file.write("n\n")
         file.write("![NBA_2](assists.png)\n")
 
