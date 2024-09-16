@@ -37,9 +37,10 @@ bar_chart_points(data1)
 
 def save_to_md(data):
     test=g_describe(data)
+    mkdown=test.to_markdown()
     with open("nbastats.md","a", encoding='utf-8') as file:
         file.write("Describe:\n")
-        file.write(test)
+        file.write(mkdown)
         file.write("n\n")
         file.write("![NBA_1](points_by_position.png)\n")
         file.write("n\n")
