@@ -31,7 +31,7 @@ def g_describe(data):
     g=load_dataset(data)
     return nba_summary(g)
 
-histogram_3ptfg(data1)
+histogram_ast(data1)
 bar_chart_points(data1)
 
 def save_to_md(data):
