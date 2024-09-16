@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import tabulate
 
 data1="NBA_Data.csv"
 
