@@ -11,8 +11,9 @@ def nba_summary(data):
     return data.describe()
 
 def histogram_ast(data):
+    df=load_dataset(data)
     plt.figure(figsize=(10,6))
-    plt.hist(data["AST"], bins=20)
+    plt.hist(df["AST"], bins=20)
     plt.title("Assists in 2023-24 Season-1")
     plt.xlabel("NBA Players")
     plt.ylabel("%")
@@ -42,7 +43,7 @@ def save_to_md(data):
         file.write("n\n")
         file.write("![NBA_1](points_by_position.png)\n")
         file.write("n\n")
-        file.write("![NBA_2](3_pt_data.png)\n")
+        file.write("![NBA_2](assists.png)\n")
 
 if __name__ == "__main__":
     save_to_md(data1)
