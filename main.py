@@ -45,4 +45,4 @@ def save_to_md(data):
         file.write("![NBA_2](3_pt_data.png)\n")
 
 if __name__ == "__main__":
-    save_to_md()
+    save_to_md(data1)
