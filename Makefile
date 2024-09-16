@@ -3,9 +3,19 @@ install:
 format:
 	black *.py
 lint: 
-	pylint --disable==R,C --ignore-patterns=test_.*?py *.py
+	pylint --disable==R,C --ignore-patterns=test_.*?py *.py mylib/*.py
+	ruff check *.py mylib/*.py test_*.py *.ipynb
 test:
 	python -m pytest -cov=main test_main.py
+
+generate_and_push:
+	python main.py
+	git config --local user.email "action@github.com"
+	git config --local user.name "GitHub Action"	
+	git add .
+	git commit -m "Prepare report"
+	git push
+
 
 all: install format lint test
 
