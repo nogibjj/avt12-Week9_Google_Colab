@@ -3,7 +3,7 @@ install:
 format:
 	black *.py
 lint: 
-	ruff check *.py mylib/*.py test_*.py *.ipynb
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
 test:
 	python -m pytest -cov=main test_main.py
 
