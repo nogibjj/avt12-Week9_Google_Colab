@@ -21,17 +21,17 @@ library file
 #def heat_map(data,col1,col2):
     #return 
 
-#def grab_median(data,col):
-    #return data[col].median()
+def grab_median(data,col):
+    return data[col].median()
 
-#def grab_stdev(data,col):
-    #return data[col].stdev()
+def grab_stdev(data,col):
+    return data[col].stdev()
 
 #def grab_max(data,col):
     #return data[col].max()
 
-#def grab_mean(data,col):
-    #return data[col].mean()
+def grab_mean(data,col):
+    return data[col].mean()
 
 #def grab_median(data,col):
     #return data[col].median()

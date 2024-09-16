@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from mylib.nbacheck import grab_mean,grab_median,grab_stdev
+
 data1="NBA_Data.csv"
 
 def load_dataset(data):
@@ -31,15 +33,6 @@ def bar_chart_points(data):
 def g_describe(data):
     g=load_dataset(data)
     return nba_summary(g)
-
-def grab_mean(data,col):
-    return data[col].mean()
-
-def grab_median(data,col):
-    return data[col].median()
-
-def grab_stdev(data,col):
-    return data[col].std()
 
 def stat_update(data,col):
     df=load_dataset(data)

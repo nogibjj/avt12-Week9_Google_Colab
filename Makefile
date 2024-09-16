@@ -3,9 +3,9 @@ install:
 format:
 	black *.py
 lint: 
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py .
 test:
-	python -m pytest -cov=main test_main.py
+	python -m pytest -vv --nbval -cov=main test_*.py *.ipynb
 
 generate_and_push:
 	python main.py
