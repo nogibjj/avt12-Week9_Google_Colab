@@ -5,7 +5,7 @@ format:
 lint: 
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py .
 test:
-	python -m pytest -cov=main test_*.py *.ipynb
+	python -m pytest -cov=main test_main.py *.ipynb
 
 generate_and_push:
 	python main.py
