@@ -1,62 +1,26 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+from mylib.nbacheck import grab_mean,grab_median,grab_stdev, histogram_ast, bar_chart_points, load_dataset
+
 data1 = "NBA_Data.csv"
-
-
-def load_dataset(data):
-    df = pd.read_csv(data)
-    return df
 
 
 def nba_summary(data):
     return data.describe()
 
 
-def histogram_ast(data):
-    df = load_dataset(data)
-    plt.figure(figsize=(10, 6))
-    plt.hist(df["AST"], bins=20)
-    plt.title("Assists in 2023-24 Season-1")
-    plt.xlabel("NBA Players")
-    plt.ylabel("%")
-    plt.savefig("assists.png")
-    return plt.show()
-
-
-def bar_chart_points(data):
-    df = pd.read_csv(data)
-    plt.figure(figsize=(10, 6))
-    plt.bar(df["Pos"], df["AST"], color="maroon", width=0.4)
-    plt.xlabel("Players Position")
-    plt.ylabel("Player Assists")
-    plt.savefig("points_by_position1.png")
-    plt.show()
-
 
 def g_describe(data):
     g = load_dataset(data)
     return nba_summary(g)
-
-
-def grab_mean(data, col):
-    return data[col].mean()
-
-
-def grab_median(data, col):
-    return data[col].median()
-
-
-def grab_stdev(data, col):
-    return data[col].std()
-
 
 def stat_update(data, col):
     df = load_dataset(data)
     mean1 = grab_mean(df, col)
     median1 = grab_median(df, col)
     stdev1 = grab_stdev(df, col)
-    df1 = pd.DataFrame([mean1, median1, stdev1])
+    df1 = {"Mean":mean1,"Median":median1,"Stdev":stdev1}
     return df1
 
 
