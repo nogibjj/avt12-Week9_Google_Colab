@@ -41,7 +41,7 @@ def grab_max(data,col):
 def histogram_3ptfg(data):
     plt.figure(figsize=(10,6))
     plt.hist(data["3P%"], bins=20)
-    plt.title("3 Point Percentage in 2023-24 Season")
+    plt.title("3 Point Percentage in 2023-24 Season-1")
     plt.xlabel("NBA Players")
     plt.ylabel("%")
     plt.savefig("3_pt_data.png")
