@@ -3,11 +3,12 @@ install:
 format:
 	black *.py
 lint: 
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py .
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
 test:
 	python -m pytest -cov=main test_main.py *.ipynb
 
 generate_and_push:
+
 	python main.py
 	git config --local user.email "action@github.com"
 	git config --local user.name "GitHub Action"	
