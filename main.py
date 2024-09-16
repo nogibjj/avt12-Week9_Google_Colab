@@ -1,5 +1,12 @@
 import pandas as pd
-from mylib.nbacheck import grab_mean,grab_median,grab_stdev, histogram_ast, bar_chart_points, load_dataset
+from mylib.nbacheck import (
+    grab_mean,
+    grab_median,
+    grab_stdev,
+    histogram_ast,
+    bar_chart_points,
+    load_dataset,
+)
 
 data1 = "NBA_Data.csv"
 
@@ -8,17 +15,17 @@ def nba_summary(data):
     return data.describe()
 
 
-
 def g_describe(data):
     g = load_dataset(data)
     return nba_summary(g)
+
 
 def stat_update(data, col):
     df = load_dataset(data)
     mean1 = grab_mean(df, col)
     median1 = grab_median(df, col)
     stdev1 = grab_stdev(df, col)
-    df1 = pd.DataFrame([mean1,median1,stdev1])
+    df1 = pd.DataFrame([mean1, median1, stdev1])
     return df1
 
 
