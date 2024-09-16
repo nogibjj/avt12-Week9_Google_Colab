@@ -28,6 +28,8 @@ def bar_chart_points(data):
     df = pd.read_csv(data)
     plt.figure(figsize=(10, 6))
     plt.bar(df["Pos"], df["AST"], color="maroon", width=0.4)
+    plt.xlabel("Players Position")
+    plt.ylabel("Player Assists")
     plt.savefig("points_by_position1.png")
     plt.show()
 
