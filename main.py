@@ -1,6 +1,3 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-
 from mylib.nbacheck import grab_mean,grab_median,grab_stdev, histogram_ast, bar_chart_points, load_dataset
 
 data1 = "NBA_Data.csv"
