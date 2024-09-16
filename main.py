@@ -1,3 +1,4 @@
+import pandas as pd
 from mylib.nbacheck import grab_mean,grab_median,grab_stdev, histogram_ast, bar_chart_points, load_dataset
 
 data1 = "NBA_Data.csv"
@@ -17,7 +18,7 @@ def stat_update(data, col):
     mean1 = grab_mean(df, col)
     median1 = grab_median(df, col)
     stdev1 = grab_stdev(df, col)
-    df1 = {"Mean":mean1,"Median":median1,"Stdev":stdev1}
+    df1 = pd.DataFrame([mean1,median1,stdev1])
     return df1
 
 
