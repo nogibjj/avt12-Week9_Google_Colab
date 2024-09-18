@@ -1,4 +1,4 @@
-# avt12-template
+# avt12-Mini Project 2
 
 -requirements.txt
 -MAKEFILE
