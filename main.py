@@ -1,11 +1,11 @@
 import pandas as pd
-from mylib.nbacheck import (
+from mylib.library import (
     grab_mean,
     grab_median,
     grab_stdev,
     histogram_ast,
     bar_chart_points,
-    load_dataset,
+    load_dataset
 )
 
 data1 = "NBA_Data.csv"
