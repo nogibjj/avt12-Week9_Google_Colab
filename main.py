@@ -38,13 +38,13 @@ def save_to_md(data):
     test2 = stat_update(data, "AST")
     mkdown = test.to_markdown()
     mkdown2 = test2.to_markdown()
-    with open("nbastats.md", "a", encoding="utf-8") as file:
+    with open("nbastats1.md", "a", encoding="utf-8") as file:
         file.write("Describe:\n")
         file.write(mkdown)
         file.write("Summarize:\n")
         file.write(mkdown2)
         file.write("n\n")
-        file.write("![NBA_1](points_by_position1.png)\n")
+        file.write("![NBA_3](points_by_position.png)\n")
         file.write("n\n")
         file.write("![NBA_2](assists.png)\n")
 
