@@ -10,7 +10,7 @@ Test.yml
 
 Lint.yml
 
-##Diagram of Repository
+## **Diagram of Repository**
 
 avt12-Week2Pandas/
 ├── .devcontainer/
