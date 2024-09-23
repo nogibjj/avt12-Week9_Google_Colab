@@ -19,7 +19,7 @@ def create_histogram(data,col):
 
 
 def grab_stdev(data,col):
-    return data[col].stdev()
+    return data[col].std()
 
 def grab_max(data,col):
     return data[col].max()

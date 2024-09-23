@@ -3,10 +3,6 @@ import pandas as pd
 
 test_file = "NBA_Data.csv"
 df = pd.read_csv(test_file)
-print(grab_mean(df, "AST"))
-print(grab_median(df, "AST"))
-print(grab_stdev(df, "AST"))
-
 
 def test_describe():
     # testing out nba_summary
