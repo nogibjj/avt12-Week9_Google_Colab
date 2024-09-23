@@ -11,6 +11,7 @@ Test.yml
 Lint.yml
 
 ##Diagram of Repository
+
 avt12-Week2Pandas/
 ├── .devcontainer/
 │   ├── devcontainer.json
@@ -40,5 +41,6 @@ avt12-Week2Pandas/
 └── test_main.py
 
 ##Data Source
+
 For this assignment, I used the records from the recently concluded 2023-2024 NBA season. This data was made available at basketball-reference.com, and I attach the link to the data below. In total, there are records from 572 players tracked within this dataset, and the variables featured include shooting percentages, assists, steals, turnovers, position, minutes played, age, and team. There were many ways this data could have been analyzed, but I was especially curious to learn more about assists, as I believe passing is a vital component of the game. The two graphs I include focus on assists, both with respect to position and with respect to the distribution of assists among players. https://www.basketball-reference.com/leagues/NBA_2024_totals.html
 
