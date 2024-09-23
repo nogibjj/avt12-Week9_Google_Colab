@@ -78,6 +78,15 @@ I include here a snapshot of the descriptive statistics, as applied to all varia
 
 Below showcases the two visualizations produced using the functions called in the main file. These both pertain to the assists distribution within the NBA from last season.
 
+### Data Visualization 1 - Histogram of Assist Totals
+
+![Figure_1](https://github.com/user-attachments/assets/3604d4c0-5e1b-4100-ae11-ce4ac4bf5cdc)
+
+### Data Visualization 2 - Assists by Position
+
+![Figure_2](https://github.com/user-attachments/assets/26724b1a-1fbf-432f-af89-7d68698a0e3d)
+
+
 
 
 
