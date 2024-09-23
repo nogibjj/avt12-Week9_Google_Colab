@@ -11,9 +11,6 @@ def load_dataset(data):
 #data1="NBA_Data.csv"
 #df=pd.read_csv(data1)
 
-def grab_mean(data,col):
-    return data[col].mean()
-
 def create_histogram(data,col):
     data[col].hist()
     plt.xlabel('Values')
@@ -32,9 +29,6 @@ def grab_mean(data,col):
 
 def grab_median(data,col):
     return data[col].median()
-
-def grab_stdev(data,col):
-    return data[col].std()
 
 def histogram_ast(data):
     df = load_dataset(data)

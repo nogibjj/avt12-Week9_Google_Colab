@@ -1,6 +1,5 @@
-from mylib.library import *
+from mylib.library import grab_max,grab_mean,grab_median,grab_stdev
 import pandas as pd
-import numpy as np
 
 test_file = "NBA_Data.csv"
 df = pd.read_csv(test_file)
