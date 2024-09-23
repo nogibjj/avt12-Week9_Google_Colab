@@ -14,6 +14,9 @@ Test.yml
 Lint.yml
 [![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/lint.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/lint.yml)
 
+## **Youtube Link to Walkthrough**
+https://youtu.be/8j9T2OB416U
+
 ## **Diagram of Repository**
 
 avt12-Week2Pandas/
