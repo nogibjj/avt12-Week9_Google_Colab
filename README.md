@@ -71,3 +71,13 @@ As part of the data summary, the library contains several functions intended to 
 
 I include here a snapshot of the descriptive statistics, as applied to all variables present within the dataset.
 
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/91f6a5f3-4586-4575-993b-027aa91dbcae">
+
+
+## **Data Visualizations**
+
+Below showcases the two visualizations produced using the functions called in the main file. These both pertain to the assists distribution within the NBA from last season.
+
+
+
+
