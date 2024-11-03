@@ -47,7 +47,8 @@ avt12-Week2Pandas/
 
 ## **Data Source**
 
-For this assignment, I used the records from the recently concluded 2023-2024 NBA season. This data was made available at basketball-reference.com, and I attach the link to the data below. In total, there are records from 572 players tracked within this dataset, and the variables featured include shooting percentages, assists, steals, turnovers, position, minutes played, age, and team. There were many ways this data could have been analyzed, but I was especially curious to learn more about assists, as I believe passing is a vital component of the game. The two graphs I include focus on assists, both with respect to position and with respect to the distribution of assists among players. https://www.basketball-reference.com/leagues/NBA_2024_totals.html
+As per the previous assignment, I used the records from the recently concluded 2023-2024 NBA season. This data was made available at basketball-reference.com, and I attach the link to the data below. In total, there are records from 572 players tracked within this dataset. In my barcharts, I included data regarding assists in particular for the two visualizations.
+https://www.basketball-reference.com/leagues/NBA_2024_totals.html
 
 ## **Functions**
 
@@ -83,11 +84,13 @@ Below showcases the two visualizations produced using the functions called in th
 
 ### Data Visualization 1 - Histogram of Assist Totals
 
-![Figure_1](https://github.com/user-attachments/assets/3604d4c0-5e1b-4100-ae11-ce4ac4bf5cdc)
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/9bb55a7f-7dbf-43d7-a20a-899b2f7b572d">
+
 
 ### Data Visualization 2 - Assists by Position
 
-![Figure_2](https://github.com/user-attachments/assets/26724b1a-1fbf-432f-af89-7d68698a0e3d)
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/acb8a538-5eb7-4b17-a299-6d96790f2f6b">
+
 
 
 
