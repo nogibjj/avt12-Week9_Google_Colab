@@ -1,6 +1,6 @@
-# avt12-Individual Project 1
+# avt12-Google Colab-Miniproject 9
 
-The below serves as a summary of the individual project involving the preparation of descriptive statistics, a Markdown file, and a Jupyter notebook file. This project was also used in the 2nd Mini Project.
+In this project, while I forked over my first individual project, I have included a Google Colab link to run the Python script to prepare charts and tables separately. I include the link below. The data visualizations shown below reflect those rendered using Google Colab.
 
 Format.yml
 [![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/format.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/format.yml)
