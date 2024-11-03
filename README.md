@@ -21,6 +21,7 @@ https://youtu.be/8j9T2OB416U
 https://colab.research.google.com/drive/1J-RQJMBJNL2KnItlJLEhv6I5G7HXrbMi?usp=sharing
 
 ## **Description of Tasks Performed- Document**
+https://docs.google.com/document/d/1Ee9gOfkz4YLkvkyolOzMcjW6GbZe2EhBHacl_kkmboI/edit?usp=sharing
 
 ## **Diagram of Repository**
 
@@ -54,24 +55,6 @@ avt12-Week2Pandas/
 
 As per the previous assignment, I used the records from the recently concluded 2023-2024 NBA season. This data was made available at basketball-reference.com, and I attach the link to the data below. In total, there are records from 572 players tracked within this dataset. In my barcharts, I included data regarding assists in particular for the two visualizations.
 https://www.basketball-reference.com/leagues/NBA_2024_totals.html
-
-## **Functions**
-
-As part of the data summary, the library contains several functions intended to highlight the data.
-
-```grab_stdev(data,col)``` - returns the standard deviation of the provided column within the dataset
-
-```grab_max(data,col)``` - returns the maximum value within the provided column within the dataset
-
-```grab_median(data,col)``` - returns the median of the provided column within the dataset
-
-```grab_mean(data,col)``` - returns the mean of all values within the provided column within the dataset
-
-```histogram_ast(data)```  - prepares the graph for assists within the dataset. In this case, it is meant to represent the distribution of player assists.
-
-```bar_chart_points(data)``` - this prepares a bar chart to show the assists based on position played by the player.
-
-```create_histogram(data,col)``` - this function prepares a histogram to represent all the values within a provided column within the dataset.
 
 
 ## **Example Summary Output**
