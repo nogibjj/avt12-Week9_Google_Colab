@@ -14,8 +14,13 @@ Test.yml
 Lint.yml
 [![CI](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/lint.yml/badge.svg)](https://github.com/atreyat12/avt12-Week2Pandas/actions/workflows/lint.yml)
 
-## **Youtube Link to Walkthrough**
+## **Youtube Link to Walkthrough-VSCode**
 https://youtu.be/8j9T2OB416U
+
+## **Google Colab Link**
+https://colab.research.google.com/drive/1J-RQJMBJNL2KnItlJLEhv6I5G7HXrbMi?usp=sharing
+
+## **Description of Tasks Performed- Document**
 
 ## **Diagram of Repository**
 
@@ -68,8 +73,6 @@ As part of the data summary, the library contains several functions intended to 
 
 ```create_histogram(data,col)``` - this function prepares a histogram to represent all the values within a provided column within the dataset.
 
-```load_dataset(data)``` - loads the dataset into a pandas dataframe
-
 
 ## **Example Summary Output**
 
@@ -80,7 +83,7 @@ I include here a snapshot of the descriptive statistics, as applied to all varia
 
 ## **Data Visualizations**
 
-Below showcases the two visualizations produced using the functions called in the main file. These both pertain to the assists distribution within the NBA from last season.
+Below showcases the two visualizations produced using Google Colab. These both pertain to the assists distribution within the NBA from last season.
 
 ### Data Visualization 1 - Histogram of Assist Totals
 
